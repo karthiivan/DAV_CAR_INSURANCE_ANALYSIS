@@ -14,14 +14,11 @@ services:
       python train_models.py || echo "Model already trained"
       python generate_visualizations.py || echo "Visualizations already generated"
     startCommand: cd backend && gunicorn app:app
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
     healthCheckPath: /
     autoDeploy: true
 
   # Frontend Service
-  - type: static
+  - type: web
     name: carinsure-ai-frontend
     env: static
     plan: free
