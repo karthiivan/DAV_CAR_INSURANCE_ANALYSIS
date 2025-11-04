@@ -17,28 +17,17 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
-      - key: PORT
-        value: 5000
     healthCheckPath: /
     autoDeploy: true
 
   # Frontend Service
-  - type: web
+  - type: static
     name: carinsure-ai-frontend
     env: static
-    region: oregon
     plan: free
     branch: main
-    buildCommand: |
-      cd frontend
-      npm install
-      npm run build
+    buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: ./frontend/build
-    envVars:
-      - key: NODE_VERSION
-        value: 18.17.0
-      - key: REACT_APP_API_URL
-        sync: false
     routes:
       - type: rewrite
         source: /*
