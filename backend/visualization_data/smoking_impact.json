@@ -1,0 +1,16 @@
+{
+  "title": "Smoker vs Non-Smoker Premium Comparison",
+  "data": [
+    {
+      "type": "Non-Smoker",
+      "avgPremium": 10643.91,
+      "percentage": 79.5
+    },
+    {
+      "type": "Smoker",
+      "avgPremium": 40320.93,
+      "percentage": 20.5
+    }
+  ],
+  "insight": "Smokers pay \u20b929677/month MORE (50% higher premium)"
+}

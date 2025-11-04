@@ -1,0 +1,248 @@
+.insights {
+  min-height: 100vh;
+  padding: 40px 0 80px;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 20px;
+}
+
+.insights-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* Tabs */
+.insights-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 40px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.tab-btn {
+  padding: 12px 24px;
+  border: 2px solid #E5E7EB;
+  border-radius: 12px;
+  background: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.tab-btn:hover {
+  border-color: #1E3A8A;
+  background: rgba(30, 58, 138, 0.05);
+}
+
+.tab-btn.active {
+  border-color: #1E3A8A;
+  background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+  color: white;
+}
+
+/* Tab Content */
+.tab-content {
+  animation: fadeIn 0.4s ease-out;
+}
+
+.insight-card {
+  background: white;
+  border-radius: 24px;
+  padding: 48px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.insight-card h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  text-align: center;
+  color: #1F2937;
+}
+
+/* Insight Boxes */
+.insight-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #EFF6FF;
+  padding: 20px 24px;
+  border-radius: 12px;
+  margin-top: 32px;
+  border-left: 4px solid #1E3A8A;
+}
+
+.insight-box.savings {
+  background: #D1FAE5;
+  border-left-color: #10B981;
+}
+
+.insight-box.warning {
+  background: #FEE2E2;
+  border-left-color: #EF4444;
+}
+
+.insight-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.insight-box p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0;
+}
+
+/* Charts */
+.chart-row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 32px 0;
+}
+
+.comparison-stats {
+  flex: 1;
+  display: flex;
+  gap: 32px;
+}
+
+.stat-item {
+  flex: 1;
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.stat-value {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  margin-bottom: 8px;
+}
+
+.stat-percentage {
+  font-size: 16px;
+  color: #6B7280;
+}
+
+/* Savings Grid */
+.savings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.savings-tip-card {
+  background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+  padding: 32px;
+  border-radius: 16px;
+  border: 2px solid #E5E7EB;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.savings-tip-card:hover {
+  border-color: #10B981;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(16, 185, 129, 0.15);
+}
+
+.tip-number {
+  position: absolute;
+  top: -12px;
+  left: 24px;
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.savings-tip-card h3 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #1F2937;
+}
+
+.savings-amount {
+  font-size: 28px;
+  font-weight: 800;
+  color: #10B981;
+}
+
+.total-savings-box {
+  background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+}
+
+.total-savings-box h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.total-amount {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.total-savings-box p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .insights-tabs {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .insight-card {
+    padding: 32px 24px;
+  }
+
+  .insight-card h2 {
+    font-size: 24px;
+  }
+
+  .chart-row {
+    flex-direction: column;
+  }
+
+  .comparison-stats {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .savings-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .total-amount {
+    font-size: 36px;
+  }
+}

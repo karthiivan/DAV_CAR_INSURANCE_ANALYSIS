@@ -1,0 +1,18 @@
+{
+  "title": "Premium by Vehicle Usage",
+  "data": [
+    {
+      "usage": "Personal",
+      "avgPremium": 15185.1
+    },
+    {
+      "usage": "Commercial",
+      "avgPremium": 22656.81
+    },
+    {
+      "usage": "Ride-share",
+      "avgPremium": 25070.34
+    }
+  ],
+  "insight": "Commercial and ride-share vehicles cost 40-50% more than personal use"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Average Premium by Gender",
+  "data": [
+    {
+      "gender": "Female",
+      "avgPremium": 15786.36,
+      "count": 662
+    },
+    {
+      "gender": "Male",
+      "avgPremium": 17636.81,
+      "count": 676
+    }
+  ],
+  "insight": "Male drivers typically pay \u20b91850/month more than female drivers"
+}

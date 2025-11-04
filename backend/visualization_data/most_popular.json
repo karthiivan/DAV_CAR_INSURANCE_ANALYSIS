@@ -1,0 +1,13 @@
+{
+  "title": "Most Popular Choices",
+  "data": {
+    "topBrands": [
+      "Maruti (293)",
+      "Hyundai (221)",
+      "Toyota (211)"
+    ],
+    "avgAge": 39.2,
+    "preferredUsage": "Personal (81%)",
+    "preferredFuel": "Petrol (50%)"
+  }
+}

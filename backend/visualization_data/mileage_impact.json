@@ -1,0 +1,18 @@
+{
+  "title": "Premium by Annual Mileage",
+  "data": [
+    {
+      "range": "Low (< 10k km)",
+      "avgPremium": 16534.7
+    },
+    {
+      "range": "Medium (10-20k km)",
+      "avgPremium": 15530.17
+    },
+    {
+      "range": "High (> 20k km)",
+      "avgPremium": 18009.69
+    }
+  ],
+  "insight": "High-mileage drivers pay \u20b91475/month more than low-mileage drivers"
+}

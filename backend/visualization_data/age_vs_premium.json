@@ -1,0 +1,26 @@
+{
+  "title": "Insurance Cost by Age Group",
+  "data": [
+    {
+      "ageGroup": "Young (18-25)",
+      "avgPremium": 11406.04,
+      "percentage": 22.9
+    },
+    {
+      "ageGroup": "Adult (26-40)",
+      "avgPremium": 13909.54,
+      "percentage": 29.5
+    },
+    {
+      "ageGroup": "Middle (41-55)",
+      "avgPremium": 19276.48,
+      "percentage": 31.5
+    },
+    {
+      "ageGroup": "Senior (56+)",
+      "avgPremium": 24412.68,
+      "percentage": 16.1
+    }
+  ],
+  "insight": "Young drivers (18-25) pay 50% more than experienced drivers (26-40)"
+}

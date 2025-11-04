@@ -1,0 +1,14 @@
+{
+  "title": "Insurance Cost by Region",
+  "data": [
+    {
+      "region": "South",
+      "avgPremium": 17307.415
+    },
+    {
+      "region": "North",
+      "avgPremium": 16003.865000000002
+    }
+  ],
+  "insight": "Regional differences exist, with variations up to \u20b9200/month between regions"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Premium Distribution",
+  "ranges": [
+    {
+      "range": "\u20b9500-\u20b91000",
+      "percentage": 0.0,
+      "label": "Budget"
+    },
+    {
+      "range": "\u20b91000-\u20b91500",
+      "percentage": 2.6,
+      "label": "Standard"
+    },
+    {
+      "range": "\u20b91500-\u20b92500",
+      "percentage": 13.3,
+      "label": "Premium"
+    },
+    {
+      "range": "\u20b92500+",
+      "percentage": 84.1,
+      "label": "Luxury"
+    }
+  ],
+  "insight": "45% of customers pay \u20b91000-1500/month"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Premium by Vehicle Age",
+  "data": [
+    {
+      "range": "New (0-2 years)",
+      "avgPremium": 18034.4
+    },
+    {
+      "range": "Recent (3-5 years)",
+      "avgPremium": 16808.99
+    },
+    {
+      "range": "Older (6-8 years)",
+      "avgPremium": 17160.5
+    },
+    {
+      "range": "Very Old (9+ years)",
+      "avgPremium": 14692.48
+    }
+  ],
+  "insight": "Brand new vehicles cost more to insure than 3-8 year old vehicles"
+}

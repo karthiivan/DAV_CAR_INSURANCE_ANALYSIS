@@ -1,0 +1,61 @@
+{
+  "title": "Average Premium by Vehicle Brand",
+  "data": [
+    {
+      "brand": "Toyota",
+      "avgPremium": 12996.19,
+      "count": 211
+    },
+    {
+      "brand": "Chevrolet",
+      "avgPremium": 14690.21,
+      "count": 78
+    },
+    {
+      "brand": "Maruti",
+      "avgPremium": 15328.41,
+      "count": 293
+    },
+    {
+      "brand": "Tata",
+      "avgPremium": 15908.22,
+      "count": 147
+    },
+    {
+      "brand": "Hyundai",
+      "avgPremium": 16141.21,
+      "count": 221
+    },
+    {
+      "brand": "Ford",
+      "avgPremium": 16920.77,
+      "count": 103
+    },
+    {
+      "brand": "Honda",
+      "avgPremium": 17653.59,
+      "count": 149
+    },
+    {
+      "brand": "Nissan",
+      "avgPremium": 18536.91,
+      "count": 51
+    },
+    {
+      "brand": "Mercedes",
+      "avgPremium": 31188.45,
+      "count": 26
+    },
+    {
+      "brand": "BMW",
+      "avgPremium": 33180.18,
+      "count": 48
+    },
+    {
+      "brand": "Audi",
+      "avgPremium": 33265.82,
+      "count": 11
+    }
+  ],
+  "insight": "Luxury vehicles (BMW, Mercedes, Audi) cost 2-3x more to insure than economy vehicles"
+}

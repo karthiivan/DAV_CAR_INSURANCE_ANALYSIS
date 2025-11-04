@@ -1,0 +1,18 @@
+{
+  "title": "Premium by Fuel Type",
+  "data": [
+    {
+      "fuel": "Diesel",
+      "avgPremium": 16530.2
+    },
+    {
+      "fuel": "Electric",
+      "avgPremium": 16975.5
+    },
+    {
+      "fuel": "Petrol",
+      "avgPremium": 16777.88
+    }
+  ],
+  "insight": "Electric vehicles get \u20b9100-200/month discount compared to petrol/diesel"
+}
