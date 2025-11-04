@@ -4,7 +4,6 @@ services:
     name: carinsure-ai-backend
     env: python
     region: oregon
-    plan: free
     branch: main
     buildCommand: |
       cd backend
@@ -21,7 +20,6 @@ services:
   - type: web
     name: carinsure-ai-frontend
     env: static
-    plan: free
     branch: main
     buildCommand: cd frontend && npm install && npm run build
     staticPublishPath: ./frontend/build
