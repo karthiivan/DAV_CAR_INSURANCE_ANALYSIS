@@ -59,7 +59,7 @@ def generate_insights():
             }
             for age_group, row in age_stats.iterrows()
         ],
-        "insight": "Young drivers (18-25) pay 50% more than experienced drivers (26-40)"
+        "insight": "Senior drivers (56+) pay 114% more than young drivers (18-25) due to higher risk"
     }
     
     with open('visualization_data/age_vs_premium.json', 'w') as f:

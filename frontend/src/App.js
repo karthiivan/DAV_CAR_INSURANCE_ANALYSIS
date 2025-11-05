@@ -5,7 +5,9 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import GetQuote from './pages/GetQuote';
 import Insights from './pages/Insights';
-import ComparePlans from './pages/ComparePlans';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import ModelResults from './pages/ModelResults';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/get-quote" element={<GetQuote />} />
           <Route path="/insights" element={<Insights />} />
-          <Route path="/compare-plans" element={<ComparePlans />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/model-results" element={<ModelResults />} />
         </Routes>
         <Footer />
       </div>

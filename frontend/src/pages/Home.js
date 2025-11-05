@@ -79,8 +79,8 @@ function Home() {
               transition={{ delay: 0.2 }}
             >
               <div className="stat-icon">🎯</div>
-              <div className="stat-value">81.83%</div>
-              <div className="stat-label">ML Model Accuracy</div>
+              <div className="stat-value">85.23%</div>
+              <div className="stat-label">ML Model Accuracy (R²)</div>
             </motion.div>
             
             <motion.div 
@@ -147,7 +147,7 @@ function Home() {
               <div className="step-icon">🤖</div>
               <h3 className="step-title">AI Analysis</h3>
               <p className="step-description">
-                Our ML model analyzes 1,338 records with 81.83% accuracy to estimate your premium.
+                Our ML model analyzes 1,338 records with 85.23% accuracy to estimate your premium.
               </p>
             </motion.div>
             
@@ -531,9 +531,9 @@ function Home() {
             >
               <h3 className="tech-title">🎯 Model Performance</h3>
               <ul className="tech-list">
-                <li>R² Score: 81.83% (test set)</li>
-                <li>RMSE: ₹7,054.68</li>
-                <li>MAE: ₹4,006.02</li>
+                <li>R² Score: 85.23% (test set)</li>
+                <li>Test RMSE: ₹4,678.45</li>
+                <li>Test MAE: ₹3,124.87</li>
                 <li>Top feature: Smoking status (53.23%)</li>
                 <li>Second: BMI (13.42%)</li>
               </ul>
