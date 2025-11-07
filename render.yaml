@@ -1,22 +1,5 @@
 services:
-  # Backend API Service
-  - type: web
-    name: carinsure-ai-backend
-    env: python
-    region: oregon
-    branch: main
-    buildCommand: |
-      cd backend
-      pip install -r requirements.txt
-      python data_download.py || echo "Data already exists"
-      python preprocessing.py || echo "Data already processed"
-      python train_models.py || echo "Model already trained"
-      python generate_visualizations.py || echo "Visualizations already generated"
-    startCommand: cd backend && gunicorn app:app
-    healthCheckPath: /
-    autoDeploy: true
-
-  # Frontend Service
+  # Frontend Service (Static Site)
   - type: web
     name: carinsure-ai-frontend
     env: static
@@ -28,3 +11,8 @@ services:
         source: /*
         destination: /index.html
     autoDeploy: true
+    
+    # Environment variables (optional)
+    envVars:
+      - key: REACT_APP_API_URL
+        value: http://localhost:5000
